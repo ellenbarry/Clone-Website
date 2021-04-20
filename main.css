@@ -1,0 +1,261 @@
+
+@font-face {
+    font-family: 'green_manplain';
+    src: url('gmplain-webfont.woff2') format('woff2'),
+         url('gmplain-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.header{
+    display: flex;
+    background-color: rgb(6, 121, 136);
+    color: white;
+    flex-direction: row;
+    height: 4pc;
+}
+
+
+body{
+    
+    background-color:rgb(252, 205,107);
+    width:100%;
+    font-family: "green_manplain",sans-serif;
+    margin: 0pc;
+}
+.border{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width:100%;
+
+}
+.animation{
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    width:33%;
+    justify-items: center;
+}
+.tilt{
+    height: 33%;
+    width: max-content;
+}
+.tilt img{
+    height: 20%;
+
+}
+.tickets{
+    max-width: 100%;
+    max-height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+.ticketText{
+    height:34%;
+}
+.greenman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:33%;
+}
+.lines{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:34%;
+}
+.lines img{
+    max-height: 80%;
+}
+.greenman img{
+    max-height: 80%;
+    
+}
+.diamonds{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    max-height: 2pc;
+    align-content: center;
+    background-color: rgb(252, 205,107);
+    
+}
+.shape{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 271.28px;
+}
+.shape img{
+    max-height: 100%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-height: 100%;
+    background-color: rgb(252, 205,107);
+    color: rgb(35, 48, 79);
+    font-size: 1cm;
+    min-height: 7cm;
+}   
+.images{
+    width:100%;
+}
+.photo img{
+    max-width:100%;
+    max-height: 100%;
+
+}
+.wiggly{
+    /* width:100%; */
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background: linear-gradient(to top, rgb(99, 106, 175) 50%, rgb(252, 205,107) 50%);
+}
+
+.purple{
+    min-width:15px;
+    height:10px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-color: rgb(99, 106, 175);
+    /* border-style:inset; */
+    display: inline-block;
+    /* margin: 0 1em 1em 0; */
+    background: rgb(99, 106, 175);
+}
+.yellow{
+    min-width:15px;
+    height:10px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-color: rgb(252, 205,107);
+    /* border-style:inset; */
+    display: inline-block;
+    /* margin: 0 1em 1em 0; */
+    background: rgb(252, 205,107);
+}
+.footer{
+    background-color: rgb(99, 106, 175);
+    display:flex;
+    justify-content: space-between;
+    color: rgb(35, 48, 79);
+    min-height: 10cm;
+    border:rgb(99, 106, 175);
+    border-style: solid;
+    border-top-width: 3pc;
+    border-left-width: 1pc;
+    border-right-width: 1pc;
+    border-bottom-width: 1pc;
+
+}
+.left{
+    width:33%;
+    border:rgb(99, 106, 175);
+    border-width: 1pc;
+    border-style: solid;
+
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    width:33%;
+
+
+    border:rgb(99, 106, 175);
+    border-width: 1pc;
+    border-style: solid;
+}
+
+.right{
+    width:33%;
+    display: flex;
+    flex-direction:column;
+    border:rgb(99, 106, 175);
+    border-width: 1pc;
+    border-style: solid;
+}
+
+.joml{
+    border:rgb(99, 106, 175);
+    border-width: 1pc;
+    border-style: solid;
+    text-align: center;
+}
+.email{
+    border:rgb(99, 106, 175);
+    border-width: 1pc;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.subscribe{
+    display:flex;
+    justify-content: center;
+    border:rgb(99, 106, 175);
+    border-width: 1pc;
+    border-style: solid;
+    padding: 0;
+    border: none;
+    background: none;
+    width: 50%;
+    
+    
+
+}
+.subscribe button{
+    padding: 0px;
+    border: 0px;
+}
+.subscribe img{
+    padding:0px;
+    height: 100%;
+    width:100%;
+}
+.fogm{
+    height:10%;
+    align-items: flex-end;
+}
+.logos{
+    height:70%;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.quietus{
+    height: 3pc;
+}
+.gmtrust{
+    height: 3pc;
+}
+.crack{
+    height: 3pc;
+
+}
+.attitude{
+    height: 3pc;
+}
+.art{
+    height: 3pc;
+}
+.welsh{
+    height:3pc;
+}
+.gov{
+    height: 3pc;
+}
+
+.logo img{
+    max-height: 100%;
+    max-width: 100%;
+}
